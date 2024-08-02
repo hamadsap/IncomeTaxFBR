@@ -8,5 +8,10 @@ The Pakistani Tax Calculator is a browser extension designed to assist Pakistani
 2. Medical exemptions
 3. Tax calculations specific to teachers
 
+
+# Use SALARY TAX CALCULATOR FBR
+
+- [SALARY TAX CALCULATOR FBR](https://hamadsap.github.io/IncomeTaxFBR/)
+
 # You can Also Use the Chrome Extension
 [Salary Tax Calculator](https://chromewebstore.google.com/detail/salary-tax-calculator/laecgakfkbnafgiekaenlpocjccbbekj?hl=en/)
