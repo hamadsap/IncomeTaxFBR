@@ -331,8 +331,8 @@ document.addEventListener("DOMContentLoaded", function () {
     //    resultElement.textContent = `Monthly Tax (Tax Year ${taxYear}): PKR ${monthlyTax.toFixed(2)}`;
     //    result1Element.textContent = `Monthly Tax After Medical Exemption (Tax Year ${taxYear}): PKR ${exmpt_monthlyTax.toFixed(2)}`;
 
-    resultElement.textContent = `Monthly Tax: PKR ${monthlyTax.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`;
-    result1Element.textContent = `After Exemption: PKR ${exmpt_monthlyTax.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`;
+    resultElement.textContent = `Normal Tax: PKR ${monthlyTax.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`;
+    result1Element.textContent = `Exempted Tax: PKR ${exmpt_monthlyTax.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`;
     result2Element.textContent = `Teacher's Tax: PKR ${teacher_monthlyTax.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`;
 
     // Show the results section and salary breakup after calculation
